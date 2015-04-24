@@ -33,7 +33,7 @@ do
 
     # Unzip the downloaded file, remove header lines, include only relevant columns,
     # remove minute and second from timestamp, group/count each unique line, and save as csv
-    unzip -p $file | sed 1d | cut -d, -f2,4,15 | sed 's/:[0-9][0-9]:[0-9][0-9]//g' | sort | uniq -c > $csv
+    unzip -p $file | sed 1d | cut -d, -f2,4 | sed 's/:[0-9][0-9]:[0-9][0-9]//g' | sort | uniq -c > $csv
 
     # Remove the zip file
     rm $file
@@ -46,6 +46,6 @@ cat $(ls *tripdata.csv) > all_2014_trips.csv
 rm *tripdata.csv
 
 # Output in the form
-# count "starttime","start station id","gender"
-# 1 "2014-01-01 00","151","1"
+# count "starttime","start station id"
+# 1 "2014-01-01 00","151"
 

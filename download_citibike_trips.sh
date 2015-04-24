@@ -12,7 +12,7 @@
 #
 
 # Set a relative path for the Citibike data (uses current directory by default)
-DATA_DIR=.
+DATA_DIR=./citibike_data/
 
 # Retrieve list of all 2014 trip data file urls
 urls=`curl 'http://www.citibikenyc.com/system-data' | grep '2014.*tripdata.zip' | cut -d'"' -f2` # all 2014 urls
@@ -39,8 +39,8 @@ do
     rm $file
 done
 
-# Concatenate montly files into one file
-cat $(ls *tripdata.csv) > all_2014_trips.csv
+# Concatenate montly files into one file, insert commas, delete quotes
+cat $(ls *tripdata.csv) | sed 's/ "/,/g' | tr -d '"' > all_2014_trips.csv
 
 # Remove the montly csv files
 rm *tripdata.csv

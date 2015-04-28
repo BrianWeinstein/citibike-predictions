@@ -1,0 +1,467 @@
+Station ID,Line,Station Name,Station Latitude,Station Longitude
+1,4 Avenue: 25th St,40.660397,-73.998091
+2,4 Avenue: 36th St,40.655144,-74.003549
+3,4 Avenue: 45th St,40.648939,-74.010006
+4,4 Avenue: 53rd St,40.645069,-74.014034
+5,4 Avenue: 59th St,40.641362,-74.017881
+6,4 Avenue: 77th St,40.629742,-74.02551
+7,4 Avenue: 86th St,40.622687,-74.028398
+8,4 Avenue: 95th St,40.616622,-74.030876
+9,4 Avenue: 9th St,40.670847,-73.988302
+10,4 Avenue: Atlantic Av-Barclays Ctr,40.683666,-73.97881
+11,4 Avenue: Bay Ridge Av,40.634967,-74.023377
+12,4 Avenue: DeKalb Av,40.690635,-73.981824
+13,4 Avenue: Pacific St,40.683666,-73.97881
+14,4 Avenue: Prospect Av,40.665414,-73.992872
+15,4 Avenue: Union St,40.677316,-73.98311
+16,42nd St Shuttle: Grand Central,40.752769,-73.979189
+17,42nd St Shuttle: Times Square,40.755983,-73.986229
+18,6 Avenue: 14th St,40.738228,-73.996209
+19,6 Avenue: 23rd St,40.742878,-73.992821
+20,6 Avenue: 2nd Av,40.723402,-73.989938
+21,6 Avenue: 34th St,40.749719,-73.987823
+22,6 Avenue: 42nd St,40.754222,-73.984569
+23,6 Avenue: 47-50th Sts Rockefeller Center,40.758663,-73.981329
+24,6 Avenue: 47-50th Sts Rockefeller Center,40.758663,-73.981329
+25,6 Avenue: 4th Av,40.670272,-73.989779
+26,6 Avenue: 57th St,40.763972,-73.97745
+27,6 Avenue: 7th Av,40.666271,-73.980305
+28,6 Avenue: Bergen St,40.686145,-73.990862
+29,6 Avenue: Broadway-Lafayette St,40.725297,-73.996204
+30,6 Avenue: Carroll St,40.680303,-73.995048
+31,6 Avenue: Church Av,40.644041,-73.979678
+32,6 Avenue: Delancey St,40.718611,-73.988114
+33,6 Avenue: East Broadway,40.713715,-73.990173
+34,6 Avenue: Fort Hamilton Parkway,40.650782,-73.975776
+35,6 Avenue: Grand St,40.718267,-73.993753
+36,6 Avenue: Prospect Park-15 St,40.660365,-73.979493
+37,6 Avenue: Smith-9th St,40.67358,-73.995959
+38,6 Avenue: York St,40.699743,-73.986885
+39,63rd Street: 21st St,40.754203,-73.942836
+40,63rd Street: Lexington Av,40.764627,-73.96611
+41,63rd Street: Roosevelt Island,40.759145,-73.95326
+42,8 Avenue: 103rd St,40.796092,-73.961454
+43,8 Avenue: 116th St,40.805085,-73.954882
+44,8 Avenue: 125th St,40.811109,-73.952343
+45,8 Avenue: 135th St,40.817894,-73.947649
+46,8 Avenue: 145th St,40.824783,-73.944216
+47,8 Avenue: 14th St,40.740893,-74.00169
+48,8 Avenue: 155th St,40.830518,-73.941514
+49,8 Avenue: 163rd St - Amsterdam Av,40.836013,-73.939892
+50,8 Avenue: 168th St - Washington Heights,40.840719,-73.939561
+51,8 Avenue: 175th St,40.847391,-73.939704
+52,8 Avenue: 181st St,40.851695,-73.937969
+53,8 Avenue: 190th St,40.859022,-73.93418
+54,8 Avenue: 23rd St,40.745906,-73.998041
+55,8 Avenue: 34th St,40.752287,-73.993391
+56,8 Avenue: 42nd St,40.757308,-73.989735
+57,8 Avenue: 50th St,40.762456,-73.985984
+58,8 Avenue: 59th St,40.768296,-73.981736
+59,8 Avenue: 72nd St,40.775594,-73.97641
+60,8 Avenue: 81st St - Museum of Natural History,40.781433,-73.972143
+61,8 Avenue: 86th St,40.785868,-73.968916
+62,8 Avenue: 96th St,40.791646,-73.964699
+63,8 Avenue: Broadway-Nassau,40.710197,-74.007691
+64,8 Avenue: Canal St,40.720824,-74.005229
+65,8 Avenue: Cathedral Parkway-110th St,40.800605,-73.958158
+66,8 Avenue: Chambers St,40.714111,-74.008585
+67,8 Avenue: Dyckman St-200th St,40.865491,-73.927271
+68,8 Avenue: High St,40.699337,-73.990531
+69,8 Avenue: Inwood - 207th St,40.868072,-73.919899
+70,8 Avenue: Spring St,40.726227,-74.003739
+71,8 Avenue: West 4th St,40.732338,-74.000495
+72,8 Avenue: World Trade Center,40.712582,-74.009781
+73,Archer Av: Jamaica-Van Wyck,40.702566,-73.816859
+74,Archer Av: Parsons Blvd-Archer Av - Jamaica Center,40.702147,-73.801109
+75,Archer Av: Sutphin Blvd-Archer Av - JFK,40.700486,-73.807969
+76,Astoria: 30 Av-Grand Av,40.766779,-73.921479
+77,Astoria: 36 Av-Washington Av,40.756804,-73.929575
+78,Astoria: 39 Av-Beebe Av,40.752882,-73.932755
+79,Astoria: Astoria Blvd-Hoyt Av,40.770258,-73.917843
+80,Astoria: Broadway,40.76182,-73.925508
+81,Astoria: Ditmars Blvd,40.775036,-73.912034
+82,Brighton: 7th Av,40.67705,-73.972367
+83,Brighton: Atlantic Av,40.68446,-73.97689
+84,Brighton: Av H,40.62927,-73.961639
+85,Brighton: Av J,40.625039,-73.960803
+86,Brighton: Av M,40.617618,-73.959399
+87,Brighton: Av U,40.5993,-73.955929
+88,Brighton: Beverly Rd,40.644031,-73.964492
+89,Brighton: Brighton Beach,40.577621,-73.961376
+90,Brighton: Church Av,40.650527,-73.962982
+91,Brighton: Cortelyou Rd,40.640927,-73.963891
+92,Brighton: Kings Highway,40.60867,-73.957734
+93,Brighton: Neck Rd,40.595246,-73.955161
+94,Brighton: Newkirk Av,40.635082,-73.962793
+95,Brighton: Ocean Parkway,40.576312,-73.968501
+96,Brighton: Parkside Av,40.655292,-73.961495
+97,Brighton: Prospect Park,40.661614,-73.962246
+98,Brighton: Sheepshead Bay,40.586896,-73.954155
+99,Brighton: Stillwell Av,40.577422,-73.981233
+100,Brighton: West 8th St,40.576127,-73.975939
+101,Broadway Jamaica: 104th St-102nd St,40.695178,-73.84433
+102,Broadway Jamaica: 111th St,40.697418,-73.836345
+103,Broadway Jamaica: 121st St,40.700492,-73.828294
+104,Broadway Jamaica: Alabama Av,40.676992,-73.898654
+105,Broadway Jamaica: Chauncey St,40.682893,-73.910456
+106,Broadway Jamaica: Cleveland St,40.679947,-73.884639
+107,Broadway Jamaica: Crescent St,40.683194,-73.873785
+108,Broadway Jamaica: Cypress Hills,40.689941,-73.87255
+109,Broadway Jamaica: Elderts Lane-75th St,40.691324,-73.867139
+110,Broadway Jamaica: Flushing Av,40.70026,-73.941126
+111,Broadway Jamaica: Forest Parkway-85th St,40.692435,-73.86001
+112,Broadway Jamaica: Gates Av,40.68963,-73.92227
+113,Broadway Jamaica: Halsey St,40.68637,-73.916559
+114,Broadway Jamaica: Hewes St,40.70687,-73.953431
+115,Broadway Jamaica: Kosciusko St,40.693342,-73.928814
+116,Broadway Jamaica: Lorimer St,40.703869,-73.947408
+117,Broadway Jamaica: Marcy Av,40.708359,-73.957757
+118,Broadway Jamaica: Myrtle Av,40.697207,-73.935657
+119,Broadway Jamaica: Norwood Av,40.68141,-73.880039
+120,Broadway Jamaica: Van Siclen Av,40.678024,-73.891688
+121,Broadway Jamaica: Woodhaven Blvd,40.693879,-73.851576
+122,Broadway: 23rd St,40.741303,-73.989344
+123,Broadway: 28th St,40.745494,-73.988691
+124,Broadway: 34th St,40.749567,-73.98795
+125,Broadway: 49th St,40.759901,-73.984139
+126,Broadway: 57th St,40.764664,-73.980658
+127,Broadway: 5th Av,40.764811,-73.973347
+128,Broadway: 8th St,40.730328,-73.992629
+129,Broadway: Canal St (UL),40.719527,-74.001775
+130,Broadway: City Hall,40.713282,-74.006978
+131,Broadway: Cortlandt St,40.710668,-74.011029
+132,Broadway: Court St,40.6941,-73.991777
+133,Broadway: Lawrence St,40.69218,-73.985942
+134,Broadway: Lexington Av,40.76266,-73.967258
+135,Broadway: Prince St,40.724329,-73.997702
+136,Broadway: Rector St,40.70722,-74.013342
+137,Broadway: Times Square-42nd St,40.754672,-73.986754
+138,Broadway: Union Square,40.735736,-73.990568
+139,Broadway: Whitehall St,40.703087,-74.012994
+140,Broadway-7th Ave: 103rd St,40.799446,-73.968379
+141,Broadway-7th Ave: 116th St-Columbia University,40.807722,-73.96411
+142,Broadway-7th Ave: 125th St,40.815581,-73.958372
+143,Broadway-7th Ave: 137th St-City College,40.822008,-73.953676
+144,Broadway-7th Ave: 145th St,40.826551,-73.95036
+145,Broadway-7th Ave: 14th St,40.737826,-74.000201
+146,Broadway-7th Ave: 157th St,40.834041,-73.94489
+147,Broadway-7th Ave: 168th St,40.840556,-73.940133
+148,Broadway-7th Ave: 181st St,40.849505,-73.933596
+149,Broadway-7th Ave: 18th St,40.74104,-73.997871
+150,Broadway-7th Ave: 191st St,40.855225,-73.929412
+151,Broadway-7th Ave: 207th St,40.864614,-73.918819
+152,Broadway-7th Ave: 215th St,40.869444,-73.915279
+153,Broadway-7th Ave: 231st St,40.878856,-73.904834
+154,Broadway-7th Ave: 238th St,40.884667,-73.90087
+155,Broadway-7th Ave: 23rd St,40.744081,-73.995657
+156,Broadway-7th Ave: 28th St,40.747215,-73.993365
+157,Broadway-7th Ave: 34th St,40.750373,-73.991057
+158,Broadway-7th Ave: 50th St,40.761728,-73.983849
+159,Broadway-7th Ave: 59th St-Columbus Circle,40.768247,-73.981929
+160,Broadway-7th Ave: 66th St-Lincoln Center,40.77344,-73.982209
+161,Broadway-7th Ave: 72nd St,40.778453,-73.98197
+162,Broadway-7th Ave: 79th St,40.783934,-73.979917
+163,Broadway-7th Ave: 86th St,40.788644,-73.976218
+164,Broadway-7th Ave: 96th St,40.793919,-73.972323
+165,Broadway-7th Ave: Canal St,40.722854,-74.006277
+166,Broadway-7th Ave: Cathedral Parkway-110th St,40.803967,-73.966847
+167,Broadway-7th Ave: Chambers St,40.715478,-74.009266
+168,Broadway-7th Ave: Christopher St,40.733422,-74.002906
+169,Broadway-7th Ave: Dyckman St,40.860531,-73.925536
+170,Broadway-7th Ave: Franklin St,40.719318,-74.006886
+171,Broadway-7th Ave: Houston St,40.728251,-74.005367
+172,Broadway-7th Ave: Marble Hill-225th St,40.874561,-73.909831
+173,Broadway-7th Ave: Rector St,40.707513,-74.013783
+174,Broadway-7th Ave: South Ferry,40.702068,-74.013664
+175,Broadway-7th Ave: Times Square,40.75529,-73.987495
+176,Broadway-7th Ave: Van Cortlandt Park-242nd St,40.889248,-73.898583
+177,Canarsie: 1st Av,40.730953,-73.981628
+178,Canarsie: 3rd Av,40.732849,-73.986122
+179,Canarsie: 6th Av,40.737335,-73.996786
+180,Canarsie: 8th Av,40.739777,-74.002578
+181,Canarsie: Atlantic Av,40.675345,-73.903097
+182,Canarsie: Bedford Av,40.717304,-73.956872
+183,Canarsie: Bushwick Av,40.682829,-73.905249
+184,Canarsie: Canarsie - Rockaway Parkway,40.646654,-73.90185
+185,Canarsie: DeKalb Av,40.703811,-73.918425
+186,Canarsie: East 105th St,40.650573,-73.899485
+187,Canarsie: Graham Av,40.714565,-73.944053
+188,Canarsie: Grand St,40.711926,-73.94067
+189,Canarsie: Halsey St,40.695602,-73.904084
+190,Canarsie: Jefferson St,40.706607,-73.922913
+191,Canarsie: Livonia Av,40.664038,-73.900571
+192,Canarsie: Lorimer St,40.714063,-73.950275
+193,Canarsie: Montrose Av,40.707739,-73.93985
+194,Canarsie: Morgan Av,40.706152,-73.933147
+195,Canarsie: Myrtle Av,40.699814,-73.911586
+196,Canarsie: New Lots Av,40.658733,-73.899232
+197,Canarsie: Sutter Av,40.669367,-73.901975
+198,Canarsie: Union Square,40.734789,-73.99073
+199,Canarsie: Wilson Av,40.688764,-73.904046
+200,Clark: Borough Hall,40.693219,-73.989998
+201,Clark: Clark St,40.697466,-73.993086
+202,Clark: Fulton St,40.709416,-74.006571
+203,Clark: Park Place,40.713051,-74.008811
+204,Clark: Wall St,40.706821,-74.0091
+205,Concourse: 155th St,40.830135,-73.938209
+206,Concourse: 167th St,40.833769,-73.918432
+207,Concourse: 170th St,40.839306,-73.9134
+208,Concourse: 174-175th Sts,40.8459,-73.910136
+209,Concourse: 182nd-183rd Sts,40.856093,-73.900741
+210,Concourse: Bedford Park Blvd,40.873244,-73.887138
+211,Concourse: Fordham Rd,40.861296,-73.897749
+212,Concourse: Kingsbridge Rd,40.866978,-73.893509
+213,Concourse: Norwood-205th St,40.874811,-73.878855
+214,Concourse: Tremont Av,40.85041,-73.905227
+215,Concourse: Yankee Stadium-161st St,40.827905,-73.925651
+216,Coney Island: Stillwell Av,40.577422,-73.981233
+217,Coney Island: West 8th St,40.576127,-73.975939
+218,Crosstown: 21st St,40.744065,-73.949724
+219,Crosstown: Bedford-Nostrand Avs,40.689627,-73.953522
+220,Crosstown: Broadway,40.706092,-73.950308
+221,Crosstown: Classon Av,40.688873,-73.96007
+222,Crosstown: Clinton-Washington Avs,40.688089,-73.966839
+223,Crosstown: Flushing Av,40.700377,-73.950234
+224,Crosstown: Fulton St,40.687119,-73.975375
+225,Crosstown: Greenpoint Av,40.731352,-73.954449
+226,Crosstown: Long Island City-Court Square,40.746554,-73.943832
+227,Crosstown: Metropolitan Av,40.712792,-73.951418
+228,Crosstown: Myrtle-Willoughby Avs,40.694568,-73.949046
+229,Crosstown: Nassau Av,40.724635,-73.951277
+230,Culver: 18th Av,40.629755,-73.976971
+231,Culver: Av I,40.625322,-73.976127
+232,Culver: Av N,40.61514,-73.974197
+233,Culver: Av P,40.608944,-73.973022
+234,Culver: Av U,40.596063,-73.973357
+235,Culver: Av X,40.58962,-73.97425
+236,Culver: Bay Parkway-22nd Av,40.620769,-73.975264
+237,Culver: Ditmas Av,40.636119,-73.978172
+238,Culver: Kings Highway,40.603217,-73.972361
+239,Culver: Neptune Av-Van Siclen,40.581011,-73.974574
+240,Dyre Av: Baychester Av,40.878663,-73.838591
+241,Dyre Av: Eastchester-Dyre Av,40.8883,-73.830834
+242,Dyre Av: Gun Hill Rd,40.869526,-73.846384
+243,Dyre Av: Morris Park,40.854364,-73.860495
+244,Dyre Av: Pelham Parkway,40.858985,-73.855359
+245,Eastern Parkway: Atlantic Av-Barclays Ctr,40.684359,-73.977666
+246,Eastern Parkway: Bergen St,40.680829,-73.975098
+247,Eastern Parkway: Eastern Parkway-Brooklyn Museum,40.671987,-73.964375
+248,Eastern Parkway: Franklin Av,40.670682,-73.958131
+249,Eastern Parkway: Grand Army Plaza,40.675235,-73.971046
+250,Eastern Parkway: Hoyt St,40.690545,-73.985065
+251,Eastern Parkway: Kingston Av,40.669399,-73.942161
+252,Eastern Parkway: Nevins St,40.688246,-73.980492
+253,Eastern Parkway: Nostrand Av,40.669847,-73.950466
+254,Eastern Parkway: Utica Av,40.668897,-73.932942
+255,Flushing: 103rd St,40.749865,-73.8627
+256,Flushing: 111th St,40.75173,-73.855334
+257,Flushing: 45 Rd-Court House Sq,40.747023,-73.945264
+258,Flushing: 5th Av,40.753821,-73.981963
+259,Flushing: 82nd St-Jackson Heights,40.747659,-73.883697
+260,Flushing: 90th St Elmhurst,40.748408,-73.876613
+261,Flushing: Bliss St-46th St,40.743132,-73.918435
+262,Flushing: Broadway-74th St,40.746848,-73.891394
+263,Flushing: Fisk Av-69th St,40.746325,-73.896403
+264,Flushing: Flushing-Main St,40.7596,-73.83003
+265,Flushing: Grand Central-42nd St,40.751431,-73.976041
+266,Flushing: Hunters Point,40.742216,-73.948916
+267,Flushing: Junction Blvd,40.749145,-73.869527
+268,Flushing: Lincoln Av-52nd St,40.744149,-73.912549
+269,Flushing: Lowery St-40th St,40.743781,-73.924016
+270,Flushing: Mets - Willets Point,40.754622,-73.845625
+271,Flushing: Queensboro Plaza,40.750582,-73.940202
+272,Flushing: Rawson St-33rd St,40.744587,-73.930997
+273,Flushing: Vernon Blvd-Jackson Av,40.742626,-73.953581
+274,Flushing: Woodside Av-61st St,40.74563,-73.902984
+275,Franklin: Botanic Gardens,40.670343,-73.959245
+276,Franklin: Franklin Av,40.680596,-73.955827
+277,Franklin: Park Place,40.674772,-73.957624
+278,Fulton: Broadway Junction-East New York,40.678334,-73.905316
+279,Fulton: Clinton & Washington Avs,40.683263,-73.965838
+280,Fulton: Euclid Av,40.675377,-73.872106
+281,Fulton: Franklin Av,40.68138,-73.956848
+282,Fulton: Hoyt & Schermerhorn,40.688484,-73.985001
+283,Fulton: Jay St - Borough Hall,40.692338,-73.987342
+284,Fulton: Kingston-Throop,40.679921,-73.940858
+285,Fulton: Lafayette Av,40.686113,-73.973946
+286,Fulton: Liberty Av,40.674542,-73.896548
+287,Fulton: Nostrand Av,40.680438,-73.950426
+288,Fulton: Ralph Av,40.678822,-73.920786
+289,Fulton: Rockaway Av,40.67834,-73.911946
+290,Fulton: Shepherd Av,40.67413,-73.88075
+291,Fulton: Utica Av,40.679364,-73.930729
+292,Fulton: Van Siclen Av,40.67271,-73.890358
+293,Jerome: 138th St,40.813224,-73.929849
+294,Jerome: 149th St-Grand Concourse,40.818375,-73.927351
+295,Jerome: 167th St,40.835537,-73.9214
+296,Jerome: 170th St,40.840075,-73.917791
+297,Jerome: 176th St,40.84848,-73.911794
+298,Jerome: 183rd St,40.858407,-73.903879
+299,Jerome: Bedford Park Blvd-Lehman College,40.873412,-73.890064
+300,Jerome: Burnside Av,40.853453,-73.907684
+301,Jerome: Fordham Rd,40.862803,-73.901034
+302,Jerome: Kingsbridge Rd,40.86776,-73.897174
+303,Jerome: Mosholu Parkway,40.87975,-73.884655
+304,Jerome: Mt Eden Av,40.844434,-73.914685
+305,Jerome: Woodlawn,40.886037,-73.878751
+306,Jerome: Yankee Stadium-161st St,40.827994,-73.925831
+307,Lenox: 110th St-Central Park North,40.799075,-73.951822
+308,Lenox: 116th St,40.802098,-73.949625
+309,Lenox: 125th St,40.807754,-73.945495
+310,Lenox: 135th St,40.814229,-73.94077
+311,Lenox: 145th St,40.820421,-73.936245
+312,Lenox: Harlem-148th St,40.82388,-73.93647
+313,Lexington: 103rd St,40.7906,-73.947478
+314,Lexington: 110th St,40.79502,-73.94425
+315,Lexington: 116th St,40.798629,-73.941617
+316,Lexington: 125th St,40.804138,-73.937594
+317,Lexington: 14th St-Union Square,40.734673,-73.989951
+318,Lexington: 23rd St,40.739864,-73.986599
+319,Lexington: 28th St,40.74307,-73.984264
+320,Lexington: 33rd St,40.746081,-73.982076
+321,Lexington: 51st St,40.757107,-73.97192
+322,Lexington: 59th St,40.762526,-73.967967
+323,Lexington: 68th St-Hunter College,40.768141,-73.96387
+324,Lexington: 77th St,40.77362,-73.959874
+325,Lexington: 86th St,40.779492,-73.955589
+326,Lexington: 96th St,40.785672,-73.95107
+327,Lexington: Astor Place,40.730054,-73.99107
+328,Lexington: Bleecker St,40.725915,-73.994659
+329,Lexington: Borough Hall,40.692404,-73.990151
+330,Lexington: Bowling Green,40.704817,-74.014065
+331,Lexington: Brooklyn Bridge-City Hall,40.713065,-74.004131
+332,Lexington: Canal St,40.718803,-74.000193
+333,Lexington: Fulton St,40.710368,-74.009509
+334,Lexington: Grand Central-42nd St,40.751776,-73.976848
+335,Lexington: Spring St,40.722301,-73.997141
+336,Lexington: Wall St,40.707557,-74.011862
+337,Liberty: 104th St-Oxford Av,40.681711,-73.837683
+338,Liberty: 111th St-Greenwood Av,40.684331,-73.832163
+339,Liberty: 80th St-Hudson St,40.679371,-73.858992
+340,Liberty: 88th St-Boyd Av,40.679843,-73.85147
+341,Liberty: Grant Av,40.677044,-73.86505
+342,Liberty: Lefferts Blvd,40.685951,-73.825798
+343,Liberty: Rockaway Blvd,40.680429,-73.843853
+344,Myrtle: Central Av,40.697857,-73.927397
+345,Myrtle: Forest Av,40.704423,-73.903077
+346,Myrtle: Fresh Pond Rd,40.706186,-73.895877
+347,Myrtle: Knickerbocker Av,40.698664,-73.919711
+348,Myrtle: Metropolitan Av,40.711396,-73.889601
+349,Myrtle: Seneca Av,40.702762,-73.90774
+350,Nassau: Bowery,40.72028,-73.993915
+351,Nassau: Broad St,40.706476,-74.011056
+352,Nassau: Canal St,40.718092,-73.999892
+353,Nassau: Chambers St,40.713243,-74.003401
+354,Nassau: Essex St,40.718315,-73.987437
+355,Nassau: Fulton St,40.710374,-74.007582
+356,New Lots: Junius St,40.663515,-73.902447
+357,New Lots: New Lots Av,40.666235,-73.884079
+358,New Lots: Pennsylvania Av,40.664635,-73.894895
+359,New Lots: Rockaway Av,40.662549,-73.908946
+360,New Lots: Saratoga Av,40.661453,-73.916327
+361,New Lots: Sutter Av,40.664717,-73.92261
+362,New Lots: Van Siclen Av,40.665449,-73.889395
+363,Nostrand: Beverly Rd,40.645098,-73.948959
+364,Nostrand: Church Av,40.650843,-73.949575
+365,Nostrand: Flatbush Av-Brooklyn College,40.632836,-73.947642
+366,Nostrand: Newkirk Av,40.639967,-73.948411
+367,Nostrand: President St,40.667883,-73.950683
+368,Nostrand: Sterling St,40.662742,-73.95085
+369,Nostrand: Winthrop St,40.656652,-73.9502
+370,Pelham: 138th St-3rd Ave,40.810476,-73.926138
+371,Pelham: Brook Av,40.807566,-73.91924
+372,Pelham: Buhre Av,40.84681,-73.832569
+373,Pelham: Castle Hill Av,40.834255,-73.851222
+374,Pelham: Cypress Av,40.805368,-73.914042
+375,Pelham: East 143rd St-St Mary's St,40.808719,-73.907657
+376,Pelham: East 149th St,40.812118,-73.904098
+377,Pelham: Elder Av,40.828584,-73.879159
+378,Pelham: Hunts Point Av,40.820948,-73.890549
+379,Pelham: Longwood Av,40.816104,-73.896435
+380,Pelham: Middletown Rd,40.843863,-73.836322
+381,Pelham: Morrison Av-Soundview Av,40.829521,-73.874516
+382,Pelham: Parkchester-East 177th St,40.833226,-73.860816
+383,Pelham: Pelham Bay Park,40.852462,-73.828121
+384,Pelham: St Lawrence Av,40.831509,-73.867618
+385,Pelham: Westchester Square-East Tremont Av,40.839892,-73.842952
+386,Pelham: Whitlock Av,40.826525,-73.886283
+387,Pelham: Zerega Av,40.836488,-73.847036
+388,Queens Boulevard: 169th St,40.71047,-73.793604
+389,Queens Boulevard: 23rd St-Ely Av,40.747846,-73.946
+390,Queens Boulevard: 36th St,40.752039,-73.928781
+391,Queens Boulevard: 46th St,40.756312,-73.913333
+392,Queens Boulevard: 5th Av-53rd St,40.760167,-73.975224
+393,Queens Boulevard: 63rd Drive-Rego Park,40.729846,-73.861604
+394,Queens Boulevard: 65th St,40.749669,-73.898453
+395,Queens Boulevard: 67th Av,40.726523,-73.852719
+396,Queens Boulevard: 75th Av,40.718331,-73.837324
+397,Queens Boulevard: 7th Av,40.762862,-73.981637
+398,Queens Boulevard: Briarwood-Van Wyck Blvd,40.709179,-73.820574
+399,Queens Boulevard: Elmhurst Av,40.742454,-73.882017
+400,Queens Boulevard: Forest Hills-71st Av,40.721691,-73.844521
+401,Queens Boulevard: Forest Hills-71st Av,40.721691,-73.844521
+402,Queens Boulevard: Grand Av-Newtown,40.737015,-73.877223
+403,Queens Boulevard: Jackson Heights-Roosevelt Ave,40.746644,-73.891338
+404,Queens Boulevard: Jamaica-179th St,40.712646,-73.783817
+405,Queens Boulevard: Kew Gardens-Union Turnpike,40.714441,-73.831008
+406,Queens Boulevard: Lexington Av-53rd St,40.757552,-73.969055
+407,Queens Boulevard: Northern Blvd,40.752885,-73.906006
+408,Queens Boulevard: Parsons Blvd,40.707564,-73.803326
+409,Queens Boulevard: Queens Plaza,40.748973,-73.937243
+410,Queens Boulevard: Steinway St,40.756879,-73.92074
+411,Queens Boulevard: Sutphin Blvd,40.70546,-73.810708
+412,Queens Boulevard: Woodhaven Blvd,40.733106,-73.869229
+413,Rockaway: Aqueduct Racetrack,40.672131,-73.835812
+414,Rockaway: Aqueduct-North Conduit Av,40.668234,-73.834058
+415,Rockaway: Beach 105th St,40.583209,-73.827559
+416,Rockaway: Beach 25th St,40.600066,-73.761353
+417,Rockaway: Beach 36th St,40.595398,-73.768175
+418,Rockaway: Beach 44th St,40.592943,-73.776013
+419,Rockaway: Beach 60th St,40.592374,-73.788522
+420,Rockaway: Beach 67th St,40.590927,-73.796924
+421,Rockaway: Beach 90th St,40.588034,-73.813641
+422,Rockaway: Beach 98th St,40.585307,-73.820558
+423,Rockaway: Broad Channel,40.608382,-73.815925
+424,Rockaway: Far Rockaway-Mott Av,40.603995,-73.755405
+425,Rockaway: Howard Beach,40.660476,-73.830301
+426,Rockaway: Rockaway Park-Beach 116th,40.580903,-73.835592
+427,Sea Beach: 18th Av,40.620671,-73.990414
+428,Sea Beach: 20th Av,40.61741,-73.985026
+429,Sea Beach: 86th St,40.592721,-73.97823
+430,Sea Beach: 8th Av,40.635064,-74.011719
+431,Sea Beach: Av U,40.597473,-73.979137
+432,Sea Beach: Bay Parkway-22nd Av,40.611815,-73.981848
+433,Sea Beach: Fort Hamilton Parkway,40.631386,-74.005351
+434,Sea Beach: Kings Highway,40.603923,-73.980353
+435,Sea Beach: New Utrecht Av,40.624842,-73.996353
+436,West End: 18th Av,40.607954,-74.001736
+437,West End: 20th Av,40.604556,-73.998168
+438,West End: 25th Av,40.597704,-73.986829
+439,West End: 50th St,40.63626,-73.994791
+440,West End: 55th St,40.631435,-73.995476
+441,West End: 62nd St,40.626472,-73.996895
+442,West End: 71st St,40.619589,-73.998864
+443,West End: 79th St,40.613501,-74.00061
+444,West End: 9th Av,40.646292,-73.994324
+445,West End: Bay 50th St,40.588841,-73.983765
+446,West End: Bay Parkway,40.601875,-73.993728
+447,West End: Fort Hamilton Parkway,40.640914,-73.994304
+448,White Plains Road: 149th St-3rd Av,40.816109,-73.917757
+449,White Plains Road: 174th St,40.837288,-73.887734
+450,White Plains Road: 219th St,40.883895,-73.862633
+451,White Plains Road: 225th St,40.888022,-73.860341
+452,White Plains Road: 233rd St,40.893193,-73.857473
+453,White Plains Road: 238th St-Nereid Av,40.898379,-73.854376
+454,White Plains Road: Allerton Av,40.865462,-73.867352
+455,White Plains Road: Bronx Park East,40.848828,-73.868457
+456,White Plains Road: Burke Av,40.871356,-73.867164
+457,White Plains Road: East 180th St,40.841894,-73.873488
+458,White Plains Road: East Tremont Av-West Farms Sq,40.840295,-73.880049
+459,White Plains Road: Freeman St,40.829993,-73.891865
+460,White Plains Road: Gun Hill Rd,40.87785,-73.866256
+461,White Plains Road: Intervale Av,40.822181,-73.896736
+462,White Plains Road: Jackson Av,40.81649,-73.907807
+463,White Plains Road: Pelham Parkway,40.857192,-73.867615
+464,White Plains Road: Prospect Av,40.819585,-73.90177
+465,White Plains Road: Simpson St,40.824073,-73.893064
+466,White Plains Road: Wakefield-241st St,40.903125,-73.85062

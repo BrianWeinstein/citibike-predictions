@@ -1,4 +1,4 @@
-"ID"|Alert Timestamp"|"Sent Date"|"Agency"|"Subject"|"Message"
+"ID"|"Alert Timestamp"|"Agency"|"Subject"|"Message"
 "1"|"12/31/2014 9:49:57 PM"|"Subway"|"UPDATED: MANH, 4, 5 & 6 Trains, NYPD Activity"|"Following an earlier incident at 110 St, 4, 5 and 6 train service has resumed with residual delays."
 "2"|"12/31/2014 8:24:59 PM"|"Subway"|"UPDATED: BKLYN, D Trains, Signal Problems"|"Following an earlier incident at 18 Av, D train service has resumed with residual delays."
 "3"|"12/31/2014 6:33:17 PM"|"Subway"|"UPDATED: BKLYN, 2 and 5 Trains, Sick Customer"|"Following an earlier incident at Flatbush Av, 2 and 5 train service has resumed with residual delays."

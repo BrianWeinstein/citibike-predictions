@@ -55,7 +55,7 @@ while alert_type == 'Subway':
             # since this has been sorted by the website already, we can break if we leave Subway section
             alert_type = contents[2]
 
-    with open("subway_status_2014.csv", "ab") as f:
+    with open("datasets/subway_status_2014.csv", "ab") as f:
         writer = csv.writer(f, delimiter='|', quotechar='"', quoting=csv.QUOTE_ALL)
         writer.writerows(notices)
 

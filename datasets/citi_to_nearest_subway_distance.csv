@@ -1,0 +1,333 @@
+"citiStationID","subStationID","subStationName","distance"
+116,241,"Dyre Av: Eastchester-Dyre Av",0.100586002984144
+119,418,"Rockaway: Beach 44th St",0.381680707132112
+120,8,"4 Avenue: 95th St",0.19903758681928
+127,3,"4 Avenue: 45th St",0.1449638264802
+128,11,"4 Avenue: Bay Ridge Av",0.410732938121541
+137,426,"Rockaway: Rockaway Park-Beach 116th",0.0687628510004217
+143,8,"4 Avenue: 95th St",0.269429974342621
+144,8,"4 Avenue: 95th St",0.246751552955558
+146,8,"4 Avenue: 95th St",0.379634500043352
+147,418,"Rockaway: Beach 44th St",0.310630689837033
+150,295,"Jerome: 167th St",0.00965682704595849
+151,366,"Nostrand: Newkirk Av",0.0141074023877223
+152,213,"Concourse: Norwood-205th St",0.00367511355734251
+153,8,"4 Avenue: 95th St",0.331687106447738
+157,263,"Flushing: Fisk Av-69th St",0.0023173667745624
+160,418,"Rockaway: Beach 44th St",0.397067454784349
+161,466,"White Plains Road: Wakefield-241st St",0.401092114059402
+164,288,"Fulton: Ralph Av",0.00377670696375532
+167,8,"4 Avenue: 95th St",0.494204087248775
+168,466,"White Plains Road: Wakefield-241st St",0.308592106169186
+173,445,"West End: Bay 50th St",0.012668114642949
+174,424,"Rockaway: Far Rockaway-Mott Av",0.189535385190531
+195,100,"Brighton: West 8th St",0.202505257618498
+2000,383,"Pelham: Pelham Bay Park",0.0390470693054468
+2001,8,"4 Avenue: 95th St",0.222731266005816
+2002,162,"Broadway-7th Ave: 79th St",0.213612089786892
+2003,190,"Canarsie: Jefferson St",0.016300133215907
+2004,466,"White Plains Road: Wakefield-241st St",0.322159718255065
+2005,174,"Broadway-7th Ave: South Ferry",0.0296588992177007
+2006,404,"Queens Boulevard: Jamaica-179th St",0.142138065792473
+2008,466,"White Plains Road: Wakefield-241st St",0.193519056304901
+2009,270,"Flushing: Mets - Willets Point",0.010559055711262
+2010,172,"Broadway-7th Ave: Marble Hill-225th St",0.163612566535726
+2012,89,"Brighton: Brighton Beach",0.200554051998807
+2017,241,"Dyre Av: Eastchester-Dyre Av",0.0752259093203449
+2021,8,"4 Avenue: 95th St",0.241759514804365
+2022,418,"Rockaway: Beach 44th St",0.429371749023382
+2023,426,"Rockaway: Rockaway Park-Beach 116th",0.108946257589366
+212,67,"8 Avenue: Dyckman St-200th St",0.022316629052618
+216,163,"Broadway-7th Ave: 86th St",0.323368197060944
+217,98,"Brighton: Sheepshead Bay",0.0312874481029937
+218,5,"4 Avenue: 59th St",0.46623512913127
+223,55,"8 Avenue: 34th St",0.197596381839439
+224,159,"Broadway-7th Ave: 59th St-Columbus Circle",0.17419771159701
+225,466,"White Plains Road: Wakefield-241st St",0.262389001338214
+228,263,"Flushing: Fisk Av-69th St",0.0103584408926238
+229,101,"Broadway Jamaica: 104th St-102nd St",0.00420190146838451
+232,466,"White Plains Road: Wakefield-241st St",0.369358519960244
+233,241,"Dyre Av: Eastchester-Dyre Av",0.284569631493142
+236,8,"4 Avenue: 95th St",0.0913127327877987
+237,152,"Broadway-7th Ave: 215th St",0.152399133858893
+238,385,"Pelham: Westchester Square-East Tremont Av",0.0100505102612019
+239,404,"Queens Boulevard: Jamaica-179th St",0.145804025052968
+241,176,"Broadway-7th Ave: Van Cortlandt Park-242nd St",0.361058709128692
+242,418,"Rockaway: Beach 44th St",0.0339010907964763
+243,219,"Crosstown: Bedford-Nostrand Avs",0.00322272110951616
+244,466,"White Plains Road: Wakefield-241st St",0.385455834684976
+245,241,"Dyre Av: Eastchester-Dyre Av",0.0333071409903383
+247,466,"White Plains Road: Wakefield-241st St",0.506601006695391
+248,81,"Astoria: Ditmars Blvd",0.026912990958067
+249,146,"Broadway-7th Ave: 157th St",0.0783711010808403
+250,8,"4 Avenue: 95th St",0.536432005942018
+251,5,"4 Avenue: 59th St",0.133723219939782
+252,466,"White Plains Road: Wakefield-241st St",0.133207519986989
+253,89,"Brighton: Brighton Beach",0.291955461067076
+254,103,"Broadway Jamaica: 121st St",0.00307070059541559
+257,162,"Broadway-7th Ave: 79th St",0.123988890163247
+258,385,"Pelham: Westchester Square-East Tremont Av",0.076906039578553
+259,371,"Pelham: Brook Av",0.0133087857117218
+260,2,"4 Avenue: 36th St",0.147521546260862
+261,168,"Broadway-7th Ave: Christopher St",0.0779010696030795
+262,8,"4 Avenue: 95th St",0.439640738108501
+263,310,"Lenox: 135th St",0.00507795222709007
+264,242,"Dyre Av: Gun Hill Rd",0.0141156865237164
+265,89,"Brighton: Brighton Beach",0.0430144601987976
+266,152,"Broadway-7th Ave: 215th St",0.0550690692135447
+267,174,"Broadway-7th Ave: South Ferry",0.0651142841147703
+268,403,"Queens Boulevard: Jackson Heights-Roosevelt Ave",0.0223325065447995
+270,404,"Queens Boulevard: Jamaica-179th St",0.28336849889741
+271,153,"Broadway-7th Ave: 231st St",0.29271256052283
+274,142,"Broadway-7th Ave: 125th St",0.0195644185345571
+275,67,"8 Avenue: Dyckman St-200th St",0.0881557191084568
+276,8,"4 Avenue: 95th St",0.238408342661614
+278,98,"Brighton: Sheepshead Bay",0.0522703097549027
+279,8,"4 Avenue: 95th St",0.0191403640662102
+280,8,"4 Avenue: 95th St",0.466528669778079
+281,95,"Brighton: Ocean Parkway",0.155225588502248
+282,241,"Dyre Av: Eastchester-Dyre Av",0.0620980199860881
+284,99,"Brighton: Stillwell Av",0.135763023653546
+285,163,"Broadway-7th Ave: 86th St",0.504572583285778
+289,89,"Brighton: Brighton Beach",0.300166705872513
+290,177,"Canarsie: 1st Av",0.00793838850329109
+291,89,"Brighton: Brighton Beach",0.108864014322293
+293,89,"Brighton: Brighton Beach",0.0759430749546084
+294,8,"4 Avenue: 95th St",0.303824372712015
+295,419,"Rockaway: Beach 60th St",0.109057570662237
+296,99,"Brighton: Stillwell Av",0.122936121448141
+297,8,"4 Avenue: 95th St",0.342386292152035
+298,426,"Rockaway: Rockaway Park-Beach 116th",0.131620801563734
+300,86,"Brighton: Av M",0.00554638825565235
+3002,3,"4 Avenue: 45th St",0.378229426866653
+301,424,"Rockaway: Far Rockaway-Mott Av",0.0570172988017248
+302,404,"Queens Boulevard: Jamaica-179th St",0.0867070437722433
+303,404,"Queens Boulevard: Jamaica-179th St",0.315677476801682
+304,54,"8 Avenue: 23rd St",0.012858589744134
+305,8,"4 Avenue: 95th St",0.0958692099977512
+306,8,"4 Avenue: 95th St",0.371602603085279
+307,418,"Rockaway: Beach 44th St",0.320738648012821
+308,8,"4 Avenue: 95th St",0.244681957894883
+309,418,"Rockaway: Beach 44th St",0.272899587923014
+310,8,"4 Avenue: 95th St",0.0750850094794302
+311,7,"4 Avenue: 86th St",0.0903195515449013
+312,418,"Rockaway: Beach 44th St",0.0433813304334976
+313,436,"West End: 18th Av",0.0941928284004234
+314,8,"4 Avenue: 95th St",0.137025410027327
+315,143,"Broadway-7th Ave: 137th St-City College",0.097351483039688
+316,8,"4 Avenue: 95th St",0.222860687467538
+317,89,"Brighton: Brighton Beach",0.107613836745536
+318,99,"Brighton: Stillwell Av",0.0244173399081333
+319,8,"4 Avenue: 95th St",0.0161777332291493
+320,404,"Queens Boulevard: Jamaica-179th St",0.247676600711955
+321,241,"Dyre Av: Eastchester-Dyre Av",0.153777943378785
+322,418,"Rockaway: Beach 44th St",0.0075020937683945
+323,418,"Rockaway: Beach 44th St",0.524655754315461
+324,8,"4 Avenue: 95th St",0.290407875554827
+325,466,"White Plains Road: Wakefield-241st St",0.363229910866046
+326,466,"White Plains Road: Wakefield-241st St",0.0444020746900549
+327,138,"Broadway: Union Square",0.00285280139006261
+328,426,"Rockaway: Rockaway Park-Beach 116th",0.199765081251876
+329,466,"White Plains Road: Wakefield-241st St",0.32667439734481
+330,396,"Queens Boulevard: 75th Av",0.0252478823773359
+331,192,"Canarsie: Lorimer St",0.0040783504762345
+332,95,"Brighton: Ocean Parkway",0.0855557990094553
+334,348,"Myrtle: Metropolitan Av",0.00855337825171887
+335,8,"4 Avenue: 95th St",0.189455679513522
+336,8,"4 Avenue: 95th St",0.249086591310196
+337,426,"Rockaway: Rockaway Park-Beach 116th",0.0950639405438523
+339,379,"Pelham: Longwood Av",0.0337731616877761
+340,418,"Rockaway: Beach 44th St",0.174781713074992
+341,385,"Pelham: Westchester Square-East Tremont Av",0.00493442852001635
+342,164,"Broadway-7th Ave: 96th St",0.230470433988216
+343,466,"White Plains Road: Wakefield-241st St",0.0912169138689407
+344,413,"Rockaway: Aqueduct Racetrack",0.00615016841982197
+345,316,"Lexington: 125th St",0.0153413444058685
+346,8,"4 Avenue: 95th St",0.118149279366946
+347,466,"White Plains Road: Wakefield-241st St",0.159148834211422
+348,8,"4 Avenue: 95th St",0.0767892694077119
+349,152,"Broadway-7th Ave: 215th St",0.206349200483196
+350,466,"White Plains Road: Wakefield-241st St",0.178319522869273
+351,466,"White Plains Road: Wakefield-241st St",0.393680263463636
+352,466,"White Plains Road: Wakefield-241st St",0.020652997770803
+353,162,"Broadway-7th Ave: 79th St",0.16572269659197
+354,241,"Dyre Av: Eastchester-Dyre Av",0.234190717874
+355,264,"Flushing: Flushing-Main St",0.0209697721105755
+356,176,"Broadway-7th Ave: Van Cortlandt Park-242nd St",0.166370186526485
+357,395,"Queens Boulevard: 67th Av",0.00301715048736639
+358,176,"Broadway-7th Ave: Van Cortlandt Park-242nd St",0.233452848297333
+359,8,"4 Avenue: 95th St",0.272750436163129
+360,141,"Broadway-7th Ave: 116th St-Columbia University",0.266285362324467
+361,174,"Broadway-7th Ave: South Ferry",0.106606130434564
+362,466,"White Plains Road: Wakefield-241st St",0.195041528344341
+363,54,"8 Avenue: 23rd St",0.260550543496144
+364,404,"Queens Boulevard: Jamaica-179th St",0.0424136897904432
+365,241,"Dyre Av: Eastchester-Dyre Av",0.328106225662196
+366,420,"Rockaway: Beach 67th St",0.326017149794097
+367,466,"White Plains Road: Wakefield-241st St",0.247794003688611
+368,318,"Lexington: 23rd St",0.00444060577800087
+369,241,"Dyre Av: Eastchester-Dyre Av",0.0884770803944264
+372,11,"4 Avenue: Bay Ridge Av",0.00815116472760735
+373,6,"4 Avenue: 77th St",0.204912619343723
+375,89,"Brighton: Brighton Beach",0.224093530570045
+376,466,"White Plains Road: Wakefield-241st St",0.229490390894966
+377,466,"White Plains Road: Wakefield-241st St",0.19075220566279
+379,171,"Broadway-7th Ave: Houston St",0.129400853615913
+380,8,"4 Avenue: 95th St",0.234241151090671
+382,383,"Pelham: Pelham Bay Park",0.0478456848901061
+383,315,"Lexington: 116th St",0.0139662807768701
+384,404,"Queens Boulevard: Jamaica-179th St",0.12916107315791
+385,37,"6 Avenue: Smith-9th St",0.0251533873336385
+386,466,"White Plains Road: Wakefield-241st St",0.276648319345277
+387,404,"Queens Boulevard: Jamaica-179th St",0.161746351734671
+388,404,"Queens Boulevard: Jamaica-179th St",0.260888221349852
+389,270,"Flushing: Mets - Willets Point",0.0163287389490279
+390,426,"Rockaway: Rockaway Park-Beach 116th",0.122452642506332
+391,8,"4 Avenue: 95th St",0.308734492786364
+392,8,"4 Avenue: 95th St",0.0651230899460344
+393,241,"Dyre Av: Eastchester-Dyre Av",0.363594499687558
+394,8,"4 Avenue: 95th St",0.102310677046312
+395,8,"4 Avenue: 95th St",0.0753445877316352
+396,388,"Queens Boulevard: 169th St",0.0108456181618592
+397,39,"63rd Street: 21st St",0.00806170314336896
+398,264,"Flushing: Flushing-Main St",0.0399648442310223
+399,164,"Broadway-7th Ave: 96th St",0.183895620285995
+400,89,"Brighton: Brighton Beach",0.159223825747247
+401,241,"Dyre Av: Eastchester-Dyre Av",0.2036309552646
+402,2,"4 Avenue: 36th St",0.0253101065476784
+403,53,"8 Avenue: 190th St",0.082561792746958
+404,426,"Rockaway: Rockaway Park-Beach 116th",0.283186416364288
+405,420,"Rockaway: Beach 67th St",0.0779500515669014
+406,404,"Queens Boulevard: Jamaica-179th St",0.0872556838060703
+407,99,"Brighton: Stillwell Av",0.13724960056048
+408,413,"Rockaway: Aqueduct Racetrack",0.0105069913797706
+409,418,"Rockaway: Beach 44th St",0.189803114355392
+410,375,"Pelham: East 143rd St-St Mary's St",0.0217486306284371
+411,174,"Broadway-7th Ave: South Ferry",0.0960517663795315
+412,144,"Broadway-7th Ave: 145th St",0.0306651048234698
+414,404,"Queens Boulevard: Jamaica-179th St",0.228900450565142
+415,466,"White Plains Road: Wakefield-241st St",0.559355960880076
+416,418,"Rockaway: Beach 44th St",0.336089921660069
+417,383,"Pelham: Pelham Bay Park",0.0621131316979486
+418,241,"Dyre Av: Eastchester-Dyre Av",0.464622938682993
+419,74,"Archer Av: Parsons Blvd-Archer Av - Jamaica Center",0.0517736113172873
+420,433,"Sea Beach: Fort Hamilton Parkway",0.0148689369434507
+421,466,"White Plains Road: Wakefield-241st St",0.0990823087584687
+422,8,"4 Avenue: 95th St",0.415842418903352
+423,365,"Nostrand: Flatbush Av-Brooklyn College",0.0108468268640678
+426,436,"West End: 18th Av",0.0575686518393965
+427,430,"Sea Beach: 8th Av",0.00950271017579496
+428,8,"4 Avenue: 95th St",0.13808937781468
+430,461,"White Plains Road: Intervale Av",0.0064320394829025
+431,53,"8 Avenue: 190th St",0.102657917554602
+432,325,"Lexington: 86th St",0.0176238806975064
+433,404,"Queens Boulevard: Jamaica-179th St",0.104862211744383
+434,383,"Pelham: Pelham Bay Park",0.06939942827902
+435,426,"Rockaway: Rockaway Park-Beach 116th",0.209452824955896
+436,241,"Dyre Av: Eastchester-Dyre Av",0.490985383541442
+437,8,"4 Avenue: 95th St",0.29376671744199
+438,8,"4 Avenue: 95th St",0.237368867082125
+439,426,"Rockaway: Rockaway Park-Beach 116th",0.214020379190799
+440,8,"4 Avenue: 95th St",0.226436257948983
+441,393,"Queens Boulevard: 63rd Drive-Rego Park",0.0164736209282381
+442,265,"Flushing: Grand Central-42nd St",0.0128257231811801
+443,418,"Rockaway: Beach 44th St",0.08572693350294
+444,8,"4 Avenue: 95th St",0.568125213777947
+445,99,"Brighton: Stillwell Av",0.17362696252588
+446,54,"8 Avenue: 23rd St",0.0778096708676443
+447,74,"Archer Av: Parsons Blvd-Archer Av - Jamaica Center",0.035307181163688
+448,418,"Rockaway: Beach 44th St",0.323706010976174
+449,146,"Broadway-7th Ave: 157th St",0.0850577923651841
+450,385,"Pelham: Westchester Square-East Tremont Av",0.032878920777172
+453,241,"Dyre Av: Eastchester-Dyre Av",0.607265700507682
+454,160,"Broadway-7th Ave: 66th St-Lincoln Center",0.221862247105385
+455,361,"New Lots: Sutter Av",0.0186800571354553
+456,57,"8 Avenue: 50th St",0.199380042570958
+457,466,"White Plains Road: Wakefield-241st St",0.19072950236324
+458,404,"Queens Boulevard: Jamaica-179th St",0.160974221504325
+459,8,"4 Avenue: 95th St",0.463080278608537
+460,264,"Flushing: Flushing-Main St",0.0634345487661463
+461,449,"White Plains Road: 174th St",0.00343331049389661
+462,142,"Broadway-7th Ave: 125th St",0.0467204326970432
+463,289,"Fulton: Rockaway Av",0.00386239905260055
+464,7,"4 Avenue: 86th St",0.0851681442941228
+465,99,"Brighton: Stillwell Av",0.0554050353011206
+466,8,"4 Avenue: 95th St",0.105543323762511
+467,426,"Rockaway: Rockaway Park-Beach 116th",0.0182854097599616
+468,176,"Broadway-7th Ave: Van Cortlandt Park-242nd St",0.393354260888458
+469,466,"White Plains Road: Wakefield-241st St",0.463162039640267
+470,419,"Rockaway: Beach 60th St",0.264447989491394
+471,174,"Broadway-7th Ave: South Ferry",0.087116778703674
+472,418,"Rockaway: Beach 44th St",0.341379843195305
+473,404,"Queens Boulevard: Jamaica-179th St",0.190240319091352
+474,168,"Broadway-7th Ave: Christopher St",0.115713172164007
+475,241,"Dyre Av: Eastchester-Dyre Av",0.405392436173507
+476,418,"Rockaway: Beach 44th St",0.0562910535141583
+477,163,"Broadway-7th Ave: 86th St",0.069290747972282
+478,170,"Broadway-7th Ave: Franklin St",0.129393313956164
+479,8,"4 Avenue: 95th St",0.253440498667018
+480,129,"Broadway: Canal St (UL)",0.000765588695522013
+481,241,"Dyre Av: Eastchester-Dyre Av",0.274256539476525
+482,241,"Dyre Av: Eastchester-Dyre Av",0.394285966097179
+483,404,"Queens Boulevard: Jamaica-179th St",0.0497634954196826
+484,423,"Rockaway: Broad Channel",0.0141157232118374
+485,371,"Pelham: Brook Av",0.00732442646378928
+486,418,"Rockaway: Beach 44th St",0.505470724794321
+487,174,"Broadway-7th Ave: South Ferry",0.12483216262045
+488,8,"4 Avenue: 95th St",0.491080499685367
+489,404,"Queens Boulevard: Jamaica-179th St",0.198946031335502
+490,168,"Broadway-7th Ave: Christopher St",0.206461548165088
+491,420,"Rockaway: Beach 67th St",0.0154887781948148
+492,8,"4 Avenue: 95th St",0.0381778217960189
+493,8,"4 Avenue: 95th St",0.11081808435474
+494,154,"Broadway-7th Ave: 238th St",0.0321009361886553
+495,176,"Broadway-7th Ave: Van Cortlandt Park-242nd St",0.284120245608321
+496,192,"Canarsie: Lorimer St",0.00169887355534115
+497,466,"White Plains Road: Wakefield-241st St",0.248193046556857
+498,241,"Dyre Av: Eastchester-Dyre Av",0.275018254989341
+499,67,"8 Avenue: Dyckman St-200th St",0.080185169307569
+500,138,"Broadway: Union Square",0.000716078054537661
+501,424,"Rockaway: Far Rockaway-Mott Av",0.123471801149151
+502,424,"Rockaway: Far Rockaway-Mott Av",0.0571902735876364
+503,241,"Dyre Av: Eastchester-Dyre Av",0.22780176570862
+504,415,"Rockaway: Beach 105th St",0.00304409367962677
+505,241,"Dyre Av: Eastchester-Dyre Av",0.256738118284588
+507,54,"8 Avenue: 23rd St",0.0848052454274466
+508,86,"Brighton: Av M",0.0209252960279613
+509,174,"Broadway-7th Ave: South Ferry",0.0966388934950757
+510,174,"Broadway-7th Ave: South Ferry",0.319640869934503
+511,241,"Dyre Av: Eastchester-Dyre Av",0.287024606687865
+512,241,"Dyre Av: Eastchester-Dyre Av",0.41607321245354
+513,174,"Broadway-7th Ave: South Ferry",0.013113057596037
+514,466,"White Plains Road: Wakefield-241st St",0.159415396362768
+515,241,"Dyre Av: Eastchester-Dyre Av",0.0953452935010546
+516,288,"Fulton: Ralph Av",0.00395828789293518
+517,466,"White Plains Road: Wakefield-241st St",0.311042424169067
+518,241,"Dyre Av: Eastchester-Dyre Av",0.224906298258048
+519,176,"Broadway-7th Ave: Van Cortlandt Park-242nd St",0.0807283022671328
+520,174,"Broadway-7th Ave: South Ferry",0.0395901269423007
+521,466,"White Plains Road: Wakefield-241st St",0.343937366623344
+522,241,"Dyre Av: Eastchester-Dyre Av",0.281803044306621
+523,418,"Rockaway: Beach 44th St",0.123655706181985
+524,466,"White Plains Road: Wakefield-241st St",0.08259059763067
+525,436,"West End: 18th Av",0.280192386257809
+526,459,"White Plains Road: Freeman St",0.00757803457085515
+527,264,"Flushing: Flushing-Main St",0.0707120635814036
+528,164,"Broadway-7th Ave: 96th St",0.274909913388029
+529,56,"8 Avenue: 42nd St",0.0390814138508091
+530,315,"Lexington: 116th St",0.00466615604800324
+531,8,"4 Avenue: 95th St",0.316899038912702
+532,241,"Dyre Av: Eastchester-Dyre Av",0.209426299683201
+533,241,"Dyre Av: Eastchester-Dyre Av",0.108509218075397
+534,241,"Dyre Av: Eastchester-Dyre Av",0.0834389233658825
+536,8,"4 Avenue: 95th St",0.392430542476255
+537,404,"Queens Boulevard: Jamaica-179th St",0.182183012663998
+538,361,"New Lots: Sutter Av",0.0124764327694749
+539,426,"Rockaway: Rockaway Park-Beach 116th",0.0477167095907873
+540,8,"4 Avenue: 95th St",0.119152542757838
+545,184,"Canarsie: Canarsie - Rockaway Parkway",0.0268280290883567
+546,404,"Queens Boulevard: Jamaica-179th St",0.10188228836418
+72,423,"Rockaway: Broad Channel",0.0215275629483003
+79,388,"Queens Boulevard: 169th St",0.0402262384992156
+82,8,"4 Avenue: 95th St",0.0663601715290625
+83,366,"Nostrand: Newkirk Av",0.0102111213431186

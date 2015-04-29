@@ -12,11 +12,10 @@
 #
 
 # Set a relative path for the Citibike data (uses current directory by default)
-DATA_DIR=./citibike_data/
+DATA_DIR=.
 
 # Retrieve list of all 2014 trip data file urls
 urls=`curl 'http://www.citibikenyc.com/system-data' | grep '2014.*tripdata.zip' | cut -d'"' -f2` # all 2014 urls
-# urls=`curl 'http://www.citibikenyc.com/system-data' | grep '201401\|201402.*tripdata.zip' | cut -d'"' -f2` # test urls
 
 # Change to the data directory
 cd $DATA_DIR
@@ -44,8 +43,4 @@ cat $(ls *tripdata.csv) | sed 's/ "/,/g' | tr -d '"' > all_2014_trips.csv
 
 # Remove the montly csv files
 rm *tripdata.csv
-
-# Output in the form
-# count "starttime","start station id"
-# 1 "2014-01-01 00","151"
 

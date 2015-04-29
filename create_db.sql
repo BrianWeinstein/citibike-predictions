@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS `socialdata`.`mta_raw` (
 TRUNCATE TABLE `socialdata`.`mta_raw`;
 
 LOAD DATA INFILE '/Users/andyenkeboll/code/citibike-predictions/datasets/subway_status_2014.csv' 
-INTO TABLE `mta_raw` 
+INTO TABLE `mta_raw`
 FIELDS TERMINATED BY '|'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'

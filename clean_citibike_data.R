@@ -8,7 +8,7 @@ library(stringr)
 
 # Read raw Citibike trip data ################################################################
 
-# Read in the all_2014_trips.csv file
+# Read in the all_2014_trips_raw.csv file
 raw.tripData <- read.csv(file=file.choose(), header=F, col.names=c("trips", "dateHour", "citiStationID"))
 tripData <- raw.tripData
 
@@ -73,5 +73,5 @@ rm(allSlots)
 
 # Write tripData to csv ################################################################
 
-write.csv(tripData, file="~/Desktop/all_2014_trips_clean.csv", row.names=F)
+write.csv(tripData, file="~/Desktop/all_2014_trips.csv", row.names=F)
 

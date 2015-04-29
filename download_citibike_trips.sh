@@ -39,7 +39,7 @@ do
 done
 
 # Concatenate montly files into one file, insert commas, delete quotes
-cat $(ls *tripdata.csv) | sed 's/ "/,/g' | tr -d '"' > all_2014_trips.csv
+cat $(ls *tripdata.csv) | sed 's/ "/,/g' | tr -d '"' > all_2014_trips_raw.csv
 
 # Remove the montly csv files
 rm *tripdata.csv

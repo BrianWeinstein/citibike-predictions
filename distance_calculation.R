@@ -10,12 +10,8 @@ library(reshape2)
 
 subwayLoc <- read.csv(file=file.choose(), header=T, col.names=c("subStationID", "subStationName", "latitude", "longitude"))
 
-#citiLoc <- read.csv(file=file.choose())
-# simulate citiLoc data for now
-citiLoc <- read.csv(file=file.choose(), header=F)
-setnames(citiLoc, "V1", "citiStationID")
-citiLoc$latitude <- subwayLoc$latitude[1:nrow(citiLoc)] + rnorm(nrow(citiLoc), 0, 0.2)
-citiLoc$longitude <- subwayLoc$longitude[1:nrow(citiLoc)] + rnorm(nrow(citiLoc), 0, 0.2)
+citiLoc <- read.csv(file=file.choose())
+setnames(citiLoc, "station_id", "citiStationID")
 
 subwayLines <- read.csv(file=file.choose(), header=T, col.names=c("subStationID", "line"))
 

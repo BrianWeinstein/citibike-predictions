@@ -4,9 +4,7 @@
 #   Fetches trip files from the Citibike site http://www.citibikenyc.com/system-data
 #   e.g., https://s3.amazonaws.com/tripdata/201407-citibike-tripdata.zip
 #
-# Usage: ./download_citibike_trips.sh
-#
-# Requirements: curl or wget
+# Usage: ./get_citibike_trips.sh
 #
 # Source: Adapted from Jake Hofman's https://github.com/jhofman/msd2015/blob/master/lectures/lecture_2/download_trips.sh
 #

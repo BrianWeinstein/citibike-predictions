@@ -44,7 +44,7 @@ allData$anyPrecip[which(allData$precip>0)] <- 1
 allData <- select(allData,
                   date, hour, weekday,
                   citiStationID, trips, 
-                  nearestSubStationID=subStationID, nearestSubStationDist=distance, avgSubStationStatus=avgStatus,
+                  nearestSubStationDist=distance, avgSubStationStatus=avgStatus,
                   precip=precipitation, anyPrecip, maxTemp=maxTemperature)
 
 

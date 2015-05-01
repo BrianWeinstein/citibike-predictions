@@ -8,8 +8,7 @@ library(reshape2)
 
 # Read in location and line data ################################################################
 
-subwayLoc <- read.csv(file=file.choose(), header=T, col.names=c("subStationID", "subStationName", "latitude", "longitude", "rm"))
-subwayLoc$rm <- NULL
+subwayLoc <- read.csv(file=file.choose(), header=T, col.names=c("subStationID", "subStationName", "latitude", "longitude"))
 
 #citiLoc <- read.csv(file=file.choose())
 # simulate citiLoc data for now

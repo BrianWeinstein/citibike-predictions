@@ -18,12 +18,6 @@ allData <- allDataRaw
 
 # Format for regression ################################################################
 
-# assign data types
-allData$date <- as.Date(fast_strptime(as.character(allData$date), format="%Y-%m-%d"))
-allData$weekday <- as.factor(allData$weekday)
-allData$citiStationID <- as.factor(allData$citiStationID)
-allData$anyPrecip <- as.factor(allData$anyPrecip)
-
 # remove rows with missing values
 allData <- na.omit(allData) # removes the observations for citiStationID IN (319, 384, 540, 2003), 
                             # which existed in 2014, but have since been closed
@@ -36,59 +30,66 @@ rm(topCitiStations)
 # for now, removing the precip column (using anyPrecip instead)
 allData$precip <- NULL
 
-
+# assign data types
+allData$date <- as.Date(fast_strptime(as.character(allData$date), format="%Y-%m-%d"))
+allData$weekday <- as.factor(allData$weekday)
+allData$citiStationID <- as.factor(allData$citiStationID)
+allData$anyPrecip <- as.factor(allData$anyPrecip)
 
 # create a model matrix for predictors and a response vector
-x <- model.matrix(trips ~ ., allData)[, -1]
+x <- model.matrix(trips ~ ., allData)[ , -1]
 y <- allData$trips
 
 # split into train / test data
 set.seed(12)
-train <- sample(c(T,F), nrow(x), replace=T)
-test <- !train
-
-
-
 ndx <- sample(1:nrow(allData), round(nrow(allData)/2), replace=F)
 train <- 1:nrow(allData) %in% ndx
 test <- !train
+trainData <- allData[train, ]
+testData <- allData[test, ]
 rm(ndx)
 
 
+# Define functions ################################################################
+
+# mse
+mse <- function(data, predictions){
+  mean((data-predictions)^2)
+}
+
+# rmse
+rmse <- function(data, predictions){
+  sqrt(mean((data-predictions)^2))
+}
+
+
 # Lasso ################################################################
-lasso.fit <- cv.glmnet(x[train, ], y[train], alpha=1, type.measure = "mse")
-lasso.bestlambda <- lasso.fit$lambda.min
+lasso.model <- cv.glmnet(x[train, ], y[train], alpha=1, type.measure = "mse")
+lasso.bestlambda <- lasso.model$lambda.min
 
-plot(lasso.fit)
-coef(lasso.fit, s=lasso.bestlambda)
+plot(lasso.model)
+coef(lasso.model, s=lasso.bestlambda)
 
-
-lasso.pred <- predict(lasso.fit, s=lasso.bestlambda, newx=x[test, ])
-lasso.mse <- mean((lasso.pred-y[test])^2)
+lasso.pred <- predict(lasso.model, s=lasso.bestlambda, newx=x[test, ])
+lasso.mse <- mse(lasso.pred, y[test])
 
 
 
 # Ridge ################################################################
-ridge.fit <- cv.glmnet(x[train, ], y[train], alpha=1, type.measure = "mse")
-ridge.bestlambda <- ridge.fit$lambda.min
+ridge.model <- cv.glmnet(x[train, ], y[train], alpha=1, type.measure = "mse")
+ridge.bestlambda <- ridge.model$lambda.min
 
-plot(ridge.fit)
-coef(ridge.fit, s=ridge.bestlambda)
+plot(ridge.model)
+coef(ridge.model, s=ridge.bestlambda)
 
-
-ridge.pred <- predict(ridge.fit, s=ridge.bestlambda, newx=x[test, ])
-ridge.mse <- mean((ridge.pred-y[test])^2)
+ridge.pred <- predict(ridge.model, s=ridge.bestlambda, newx=x[test, ])
+ridge.mse <- mse(ridge.pred, y[test])
 
 
 
 # Least squares ################################################################
-ls.fit <- lm(trips ~ ., data=(allData[train, ]))
-coef(ls.fit)
-ls.pred <- predict(ls.fit, newdata=allData[test, ])
-ls.mse <- mean((ls.pred-(allData$trips)[test])^2)
-
-
-
-
-
+ls.model <- lm(trips ~ ., data=(trainData))
+coef(ls.model)
+ls.pred <- predict(ls.model, newdata=testData)
+ls.mse <- mse(ls.pred, (allData$trips)[test])
 

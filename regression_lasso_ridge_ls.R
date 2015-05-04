@@ -23,15 +23,22 @@ allData <- na.omit(allData) # removes the observations for citiStationID IN (319
                             # which existed in 2014, but have since been closed
 
 # for now, using only the 10 stations with the highest average trips/hour
-topCitiStations <- allData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% arrange(-trips) %>% head(10)
-allData <- allData %>% filter(citiStationID %in% topCitiStations$citiStationID) %>% mutate(citiStationID=factor(citiStationID))
-rm(topCitiStations)
+# topCitiStations <- allData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% arrange(-trips) %>% head(10)
+# allData <- allData %>% filter(citiStationID %in% topCitiStations$citiStationID) %>% mutate(citiStationID=factor(citiStationID))
+# rm(topCitiStations)
+
+# using only one station for now
+allData <- filter(allData, citiStationID=="382")
+allData$citiStationID <- NULL
+allData$nearestSubStationDist <- NULL
+
 
 # for now, removing the precip column (using anyPrecip instead)
 allData$precip <- NULL
 
 # assign data types
 allData$date <- as.Date(fast_strptime(as.character(allData$date), format="%Y-%m-%d"))
+allData$hour <- as.factor(allData$hour)
 allData$weekday <- as.factor(allData$weekday)
 allData$citiStationID <- as.factor(allData$citiStationID)
 allData$anyPrecip <- as.factor(allData$anyPrecip)
@@ -76,7 +83,7 @@ lasso.mse <- mse(lasso.pred, y[test])
 
 
 # Ridge ################################################################
-ridge.model <- cv.glmnet(x[train, ], y[train], alpha=1, type.measure = "mse")
+ridge.model <- cv.glmnet(x[train, ], y[train], alpha=0, type.measure = "mse")
 ridge.bestlambda <- ridge.model$lambda.min
 
 plot(ridge.model)

@@ -23,24 +23,43 @@ allData <- allDataRaw
 allData <- na.omit(allData) # removes the observations for citiStationID IN (319, 384, 540, 2003), 
                             # which existed in 2014, but have since been closed
 
-# for now, using only the 10 stations with the highest average trips/hour
-# topCitiStations <- allData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% arrange(-trips) %>% head(10)
-# allData <- allData %>% filter(citiStationID %in% topCitiStations$citiStationID) %>% mutate(citiStationID=factor(citiStationID))
-# rm(topCitiStations)
 
-# using only one station for now
-allData <- filter(allData, citiStationID=="382")
-allData$citiStationID <- NULL
+# Options
+
+# A. Run on the full dataset [too large]
+#     allData <- allData
+
+# B. Run using only the 10 stations with the highest average trips/hour [high error]
+#     topCitiStations <- allData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% arrange(-trips) %>% head(10)
+#     allData <- allData %>% filter(citiStationID %in% topCitiStations$citiStationID) %>% mutate(citiStationID=factor(citiStationID))
+#     rm(topCitiStations)
+
+# C. Run one station at a time (using only one station for now) [outputs models with higher Adjusted R2, but still large mse/mean(trips)]
+    allData <- filter(allData, citiStationID=="521")
+    allData$citiStationID <- NULL
+    allData$nearestSubStationDist <- NULL
+
+# D. Aggregate the dataset to daily values [outputs models with highest Adjusted R2, and lowest (but still large) mse/mean(trips)]
+#     allData <- allData %>%
+#       group_by(date, citiStationID) %>% 
+#       summarize(weekday=weekday[1],
+#                 trips=sum(trips),
+#                 nearestSubStationDist=nearestSubStationDist[1],
+#                 avgSubStationStatus=mean(avgSubStationStatus), # averaging the hourly modes?
+#                 precip=precip[1],
+#                 anyPrecip=anyPrecip[1],
+#                 maxTemp=maxTemp[1]) %>%
+#       as.data.frame()
+
+# Options end.
+
+
+# remove either the nearestSubStationDist or the citiStationID column, since they're perfectly correlated
 allData$nearestSubStationDist <- NULL
+# allData$citiStationID <- NULL
 
-
-# for now, removing the precip column (using anyPrecip instead)
+# removing the precip column (using anyPrecip instead)
 allData$precip <- NULL
-
-# for now, removing the nearestSubStationDist column
-# allData$nearestSubStationDist <- NULL
-# for now, removing the citiStationID column
-# allData$citiStationID <- NULL # much higher mse with this choice
 
 # assign data types
 allData$date <- as.Date(fast_strptime(as.character(allData$date), format="%Y-%m-%d"))
@@ -113,7 +132,7 @@ sqrt(ls.mse)
 # Polynomial least squares ################################################################ 
 
 poly.errors <- data.frame()
-for (ndx.maxTemp in 1:13){ #9:11
+for (ndx.maxTemp in 1:7){ #9:11
   poly.model <- lm(trips ~ hour + weekday + avgSubStationStatus + anyPrecip + poly(maxTemp, ndx.maxTemp), data=allData[train, ])
   trainError <- mse((allData[train, ])$trips, predict(poly.model, (allData[train, ])))
   testError <- mse((allData[test, ])$trips, predict(poly.model, (allData[test, ]))) 
@@ -127,15 +146,11 @@ poly.minerr <- poly.errors[grep(min(poly.errors$testError), poly.errors$testErro
 poly.bestdeg <- poly.minerr$ndx.maxTemp
 poly.model <- lm(trips ~ weekday + anyPrecip + poly(maxTemp, poly.bestdeg), data=allData[train, ])
 poly.mse <- poly.minerr$testError
-
+sqrt(poly.mse)
 
 # plot errors
 ggplot(poly.errors, aes(x=ndx.maxTemp, y=testError)) + geom_line() + geom_point()
 ggplot(melt(data=poly.errors, id.vars="ndx.maxTemp", measure.vars = c("trainError","testError"), value.name = "error"), 
        aes(x=ndx.maxTemp, y=error, color=variable)) + geom_line() + geom_point()
-
-
-
-
 
 

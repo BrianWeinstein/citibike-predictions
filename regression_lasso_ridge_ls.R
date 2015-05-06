@@ -4,6 +4,7 @@ library(dplyr)
 library(lubridate)
 library(ggplot2)
 library(glmnet)
+library(reshape2)
 
 options("scipen"=50, "digits"=4)
 
@@ -35,6 +36,11 @@ allData$nearestSubStationDist <- NULL
 
 # for now, removing the precip column (using anyPrecip instead)
 allData$precip <- NULL
+
+# for now, removing the nearestSubStationDist column
+# allData$nearestSubStationDist <- NULL
+# for now, removing the citiStationID column
+# allData$citiStationID <- NULL # much higher mse with this choice
 
 # assign data types
 allData$date <- as.Date(fast_strptime(as.character(allData$date), format="%Y-%m-%d"))
@@ -79,7 +85,7 @@ coef(lasso.model, s=lasso.bestlambda)
 
 lasso.pred <- predict(lasso.model, s=lasso.bestlambda, newx=x[test, ])
 lasso.mse <- mse(lasso.pred, y[test])
-
+sqrt(lasso.mse)
 
 
 # Ridge ################################################################
@@ -91,6 +97,7 @@ coef(ridge.model, s=ridge.bestlambda)
 
 ridge.pred <- predict(ridge.model, s=ridge.bestlambda, newx=x[test, ])
 ridge.mse <- mse(ridge.pred, y[test])
+sqrt(ridge.mse)
 
 
 
@@ -99,4 +106,36 @@ ls.model <- lm(trips ~ ., data=(trainData))
 coef(ls.model)
 ls.pred <- predict(ls.model, newdata=testData)
 ls.mse <- mse(ls.pred, (allData$trips)[test])
+sqrt(ls.mse)
+
+
+
+# Polynomial least squares ################################################################ 
+
+poly.errors <- data.frame()
+for (ndx.maxTemp in 1:13){ #9:11
+  poly.model <- lm(trips ~ hour + weekday + avgSubStationStatus + anyPrecip + poly(maxTemp, ndx.maxTemp), data=allData[train, ])
+  trainError <- mse((allData[train, ])$trips, predict(poly.model, (allData[train, ])))
+  testError <- mse((allData[test, ])$trips, predict(poly.model, (allData[test, ]))) 
+  poly.errors <- rbind(poly.errors, data.frame(ndx.maxTemp=ndx.maxTemp, trainError=trainError, testError=testError, sqrtTestError=sqrt(testError)))
+}
+rm(trainError, testError)
+poly.errors
+
+# select best model
+poly.minerr <- poly.errors[grep(min(poly.errors$testError), poly.errors$testError), ]
+poly.bestdeg <- poly.minerr$ndx.maxTemp
+poly.model <- lm(trips ~ weekday + anyPrecip + poly(maxTemp, poly.bestdeg), data=allData[train, ])
+poly.mse <- poly.minerr$testError
+
+
+# plot errors
+ggplot(poly.errors, aes(x=ndx.maxTemp, y=testError)) + geom_line() + geom_point()
+ggplot(melt(data=poly.errors, id.vars="ndx.maxTemp", measure.vars = c("trainError","testError"), value.name = "error"), 
+       aes(x=ndx.maxTemp, y=error, color=variable)) + geom_line() + geom_point()
+
+
+
+
+
 

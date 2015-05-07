@@ -8,14 +8,15 @@ library(reshape2)
 
 # Read in location and line data ################################################################
 
+# mta_station_location.csv
 subwayLoc <- read.csv(file=file.choose(), header=T, col.names=c("subStationID", "subStationName", "latitude", "longitude"))
 
+# citibike_station_data.csv
 citiLoc <- read.csv(file=file.choose())
 setnames(citiLoc, "station_id", "citiStationID")
 
+# mta_station_lines.csv
 subwayLines <- read.csv(file=file.choose(), header=T, col.names=c("subStationID", "line"))
-
-
 
 
 
@@ -57,13 +58,6 @@ for (i in 1:nrow(citiLoc)) {
 }
 
 rm(i)
-
-
-# Join with subway line data ################################################################
-
-# test <- left_join(x=nearest, y=subwayLines, by="subStationID")
-# test <- dcast(data=nearest, formula=citiStationID+subStationID+subStationName+distance~line, value.var=1)
-
 
 
 

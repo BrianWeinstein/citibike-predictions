@@ -47,6 +47,9 @@ regData$citiStationID <- NULL
 # removing the precip column (using anyPrecip instead)
 regData$precip <- NULL
 
+# removing the date column
+regData$date <- NULL
+
 # create a model matrix for predictors and a response vector
 x <- model.matrix(trips ~ ., regData)[ , -1]
 y <- regData$trips
@@ -117,7 +120,7 @@ lls.mae <- mae(lls.pred, testData$trips)
 # Polynomial least squares ################################################################ 
 
 pls.errors <- data.frame()
-for (ndx.maxTemp in 1:18){
+for (ndx.maxTemp in 1:16){
   pls.model <- lm(trips ~ hour + weekday + nearestSubStationDist + avgSubStationStatus + anyPrecip + poly(maxTemp, ndx.maxTemp), data=trainData)
   trainError <- rmse(trainData$trips, predict(pls.model, trainData))
   testError <- rmse(testData$trips, predict(pls.model, testData)) 
@@ -144,15 +147,24 @@ bss <- regsubsets(trips ~ ., data=trainData, nvmax=8)
 summary(bss)
 plot(bss$rss)
 summary(bss)$adjr2
-coef(bss, 5)
+coef(bss, 8)
 
 
 
-# Compare errors ################################################################ 
+# Compare and contextualize errors ################################################################ 
+
 ridge.rmse
 lasso.rmse
 lls.rmse
 pls.rmse
+
+summary(regData$trips)
+ggplot(regData, aes(x=trips)) + 
+  geom_histogram(binwidth=1) +
+  xlim(0,20) +
+  xlab("Departing Trips / Hour / Station") + ylab("[count]") + 
+  theme_bw()
+ggsave(filename='trip_volume_context.png', width=8, height=3.5)
 
 
 

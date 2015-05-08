@@ -133,7 +133,7 @@ pls.errors
 # select best model
 pls.minerr <- pls.errors[grep(min(pls.errors$testError), pls.errors$testError), ]
 pls.bestdeg <- pls.minerr$ndx.maxTemp
-pls.model <- lm(trips ~ hour + weekday + citiStationID + nearestSubStationDist + anyPrecip + poly(maxTemp, pls.bestdeg), data=trainData)
+pls.model <- lm(trips ~ hour + weekday + citiStationID + avgSubStationStatus + anyPrecip + poly(maxTemp, pls.bestdeg), data=trainData)
 pls.rmse <- pls.minerr$testError
 
 # plot errors
@@ -158,14 +158,4 @@ ridge.rmse
 lasso.rmse
 lls.rmse
 pls.rmse
-
-summary(regData$trips)
-ggplot(regData, aes(x=trips)) + 
-  geom_histogram(binwidth=1) +
-  xlim(0,20) +
-  xlab("Departing Trips / Hour / Station") + ylab("[count]") + 
-  theme_bw()
-ggsave(filename='trip_volume_context_regData.png', width=8, height=3.5)
-
-
 

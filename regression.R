@@ -34,9 +34,9 @@ regData <- allData
 regData <- na.omit(regData) # removes the observations for citiStationID IN (319, 384, 540, 2003)
 
 # Select a subset of stations
-set.seed(10)
-# stationSubset <- regData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% arrange(-trips) %>% head(10) # Top 10 stations
-stationSubset <- data.frame(citiStationID=sample(unique(regData$citiStationID), size=10, replace=F)) # Random sample
+set.seed(12)
+# stationSubset <- regData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% arrange(-trips) %>% head(20) # Top stations
+stationSubset <- data.frame(citiStationID=sample(unique(regData$citiStationID), size=20, replace=F)) # Random sample
 regData <- regData %>% filter(citiStationID %in% stationSubset$citiStationID) %>% mutate(citiStationID=factor(citiStationID))
 rm(stationSubset)
 
@@ -52,7 +52,7 @@ x <- model.matrix(trips ~ ., regData)[ , -1]
 y <- regData$trips
 
 # split into train / test data
-set.seed(10)
+set.seed(12)
 ndx <- sample(1:nrow(regData), round(nrow(regData)/2), replace=F)
 train <- 1:nrow(regData) %in% ndx
 test <- !train
@@ -140,11 +140,11 @@ ggplot(melt(data=pls.errors, id.vars="ndx.maxTemp", measure.vars = c("trainError
 
 
 # Best subset ################################################################ 
-bss <- regsubsets(trips ~ ., data=regData, nvmax=10)
+bss <- regsubsets(trips ~ ., data=trainData, nvmax=8)
 summary(bss)
 plot(bss$rss)
 summary(bss)$adjr2
-coef(bss, 10)
+coef(bss, 5)
 
 
 

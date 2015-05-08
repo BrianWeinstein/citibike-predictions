@@ -54,7 +54,7 @@ ggplot(allData %>% group_by(date) %>% summarize(trips=mean(trips)), aes(x=date, 
   xlab("Date") + ylab("Avg. Departing Trips / Hour / Station") + 
   theme_bw()
 ggsave(filename='trips_vs_date.png', width=8, height=3.5)
-  
+
 
 # Average number of trips per station per hour vs maxTemp
 ggplot(allData %>% group_by(date) %>% summarize(maxTemp=max(maxTemp), trips=mean(trips)), aes(x=maxTemp, y=trips)) + 
@@ -75,14 +75,25 @@ ggsave(filename='trips_vs_precip.png', width=8, height=3.5)
 
 
 # Average number of trips per station per hour distribution for anyPrecip
-ggplot(allData %>% group_by(date) %>% summarize(anyPrecip=anyPrecip[1], trips=mean(trips)), aes(x=trips)) + 
-  geom_density(aes(fill=anyPrecip), alpha=0.5, adjust=1/1.2) + 
-  xlab("Avg. Departing Trips / Hour / Station") + ylab("[density]") +
-  theme_bw() + theme(legend.position=c(0.2,0.8)) + 
+ggplot(allData %>% group_by(citiStationID, anyPrecip) %>% summarize(trips=mean(trips)), aes(x=trips)) + 
+  geom_density(aes(fill=anyPrecip), alpha=0.5, adjust=1) + 
+  xlab("Avg. Departing Trips / Hour / Station") + ylab("Stations [density]") +
+  theme_bw() + theme(legend.position=c(0.8,0.8)) + 
   scale_fill_hue(labels=c("No Precipitation","Any Precipitation")) + 
-  labs(fill="") + 
+  labs(fill="") + xlim(0,12) +
   guides(fill = guide_legend(override.aes = list(colour = NULL)))
 ggsave(filename='trips_vs_anyPrecip.png', width=8, height=3.5)
+
+
+# Distribution of trips per station per hour
+ggplot(allData %>% group_by(citiStationID) %>% summarize(trips=mean(trips)) %>% group_by(trips) %>% summarize(count=n()), aes(x=trips)) + 
+  geom_density(aes(fill=1), adjust=1) + 
+  xlab("Avg. Departing Trips / Hour / Station") + ylab("Stations [density]") +
+  guides(fill=F) +
+  theme_bw() 
+ggsave(filename='trips_histogram.png', width=8, height=3.5)
+
+
 
 
 # Average number of trips per station per hour vs nearestSubStationDist

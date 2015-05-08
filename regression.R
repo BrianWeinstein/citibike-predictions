@@ -41,8 +41,9 @@ regData <- regData %>% filter(citiStationID %in% stationSubset$citiStationID) %>
 rm(stationSubset)
 
 # remove either the nearestSubStationDist or the citiStationID column, since they're perfectly correlated
-# regData$nearestSubStationDist <- NULL
-regData$citiStationID <- NULL
+# Keeping citiStaionID performs slightly better
+regData$nearestSubStationDist <- NULL
+# regData$citiStationID <- NULL
 
 # removing the precip column (using anyPrecip instead)
 regData$precip <- NULL
@@ -120,8 +121,8 @@ lls.mae <- mae(lls.pred, testData$trips)
 # Polynomial least squares ################################################################ 
 
 pls.errors <- data.frame()
-for (ndx.maxTemp in 1:16){
-  pls.model <- lm(trips ~ hour + weekday + nearestSubStationDist + avgSubStationStatus + anyPrecip + poly(maxTemp, ndx.maxTemp), data=trainData)
+for (ndx.maxTemp in 1:20){
+  pls.model <- lm(trips ~ hour + weekday + citiStationID + avgSubStationStatus + anyPrecip + poly(maxTemp, ndx.maxTemp), data=trainData)
   trainError <- rmse(trainData$trips, predict(pls.model, trainData))
   testError <- rmse(testData$trips, predict(pls.model, testData)) 
   pls.errors <- rbind(pls.errors, data.frame(ndx.maxTemp=ndx.maxTemp, trainError=trainError, testError=testError))
@@ -132,7 +133,7 @@ pls.errors
 # select best model
 pls.minerr <- pls.errors[grep(min(pls.errors$testError), pls.errors$testError), ]
 pls.bestdeg <- pls.minerr$ndx.maxTemp
-pls.model <- lm(trips ~ hour + weekday + nearestSubStationDist + avgSubStationStatus + anyPrecip + poly(maxTemp, pls.bestdeg), data=trainData)
+pls.model <- lm(trips ~ hour + weekday + citiStationID + nearestSubStationDist + anyPrecip + poly(maxTemp, pls.bestdeg), data=trainData)
 pls.rmse <- pls.minerr$testError
 
 # plot errors

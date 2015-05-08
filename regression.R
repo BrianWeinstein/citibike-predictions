@@ -164,7 +164,7 @@ ggplot(regData, aes(x=trips)) +
   xlim(0,20) +
   xlab("Departing Trips / Hour / Station") + ylab("[count]") + 
   theme_bw()
-ggsave(filename='trip_volume_context.png', width=8, height=3.5)
+ggsave(filename='trip_volume_context_regData.png', width=8, height=3.5)
 
 
 

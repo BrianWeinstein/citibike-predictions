@@ -137,7 +137,11 @@ pls.model <- lm(trips ~ hour + weekday + citiStationID + avgSubStationStatus + a
 pls.rmse <- pls.minerr$testError
 
 # plot errors
-ggplot(pls.errors, aes(x=ndx.maxTemp, y=testError)) + geom_line() + geom_point()
+ggplot(pls.errors, aes(x=ndx.maxTemp, y=testError)) + geom_line() + geom_point() + 
+  geom_vline(xintercept=pls.bestdeg, color="darkgray", linetype="dashed") + 
+  xlab("maxTemp Polynomial Degree") + ylab("Test RMSE") + theme_bw()
+ggsave(filename='pls_testError_vs_polyDegree.png', width=4, height=2)
+
 ggplot(melt(data=pls.errors, id.vars="ndx.maxTemp", measure.vars = c("trainError","testError"), value.name = "error"), 
        aes(x=ndx.maxTemp, y=error, color=variable)) + geom_line() + geom_point()
 
